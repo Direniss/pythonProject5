@@ -1,6 +1,6 @@
 
 tRNAscan-SE v.2.0.12 (Nov 2022) scan results (on host ml-181115-002)
-Started: Sat Jan  6 00:30:04 +03 2024
+Started: Mon Jan  8 20:46:51 CET 2024
 
 ------------------------------------------------------------
 Sequence file(s) to search:        resource/Genome/G_muris.fasta
@@ -9,8 +9,8 @@ Results written to:                output/tRNAscan/G_muris.tRNA
 Output format:                     Tabular
 Searching with:                    Infernal First Pass->Infernal
 Isotype-specific model scan:       Yes
-Covariance model:                  /Users/xcaydi/PycharmProjects/pythonProject5/.snakemake/conda/2a8c16eae0e075422f865aacbbd7cf65_/lib/tRNAscan-SE/models/TRNAinf-euk.cm
-                                   /Users/xcaydi/PycharmProjects/pythonProject5/.snakemake/conda/2a8c16eae0e075422f865aacbbd7cf65_/lib/tRNAscan-SE/models/TRNAinf-euk-SeC.cm
+Covariance model:                  /Users/xcaydi/PycharmProjects/pythonProject5/.snakemake/conda/3fef991bbd4f8919531fd0754e819cd6_/lib/tRNAscan-SE/models/TRNAinf-euk.cm
+                                   /Users/xcaydi/PycharmProjects/pythonProject5/.snakemake/conda/3fef991bbd4f8919531fd0754e819cd6_/lib/tRNAscan-SE/models/TRNAinf-euk-SeC.cm
 Infernal first pass cutoff score:  10
 
 Temporary directory:               /var/folders/1n/jr002t7d34q0hdg4ybvz21300000gp/T
@@ -25,11 +25,11 @@ Bases read:             9777924 (x2 for both strands)
 Bases in tRNAs:         5223
 tRNAs predicted:        70
 Av. tRNA length:        74
-Script CPU time:        0.41 s
-Scan CPU time:          37.05 s
-Scan speed:             527.8 Kbp/sec
+Script CPU time:        0.55 s
+Scan CPU time:          37.73 s
+Scan speed:             518.3 Kbp/sec
 
-First pass search(es) ended: Sat Jan  6 00:30:25 +03 2024
+First pass search(es) ended: Mon Jan  8 20:47:15 CET 2024
 
 Infernal Stats:
 -----------
@@ -37,13 +37,13 @@ Candidate tRNAs read:     70
 Infernal-confirmed tRNAs:     70
 Bases scanned by Infernal:  6623
 % seq scanned by Infernal:  0.0 %
-Script CPU time:          0.17 s
-Infernal CPU time:            14.76 s
-Scan speed:               448.7 bp/sec
+Script CPU time:          0.20 s
+Infernal CPU time:            15.77 s
+Scan speed:               420.0 bp/sec
 
-Infernal analysis of tRNAs ended: Sat Jan  6 00:30:36 +03 2024
+Infernal analysis of tRNAs ended: Mon Jan  8 20:47:27 CET 2024
 
-Overall scan speed: 373274.4 bp/sec
+Overall scan speed: 360476.5 bp/sec
 
 tRNAs decoding Standard 20 AA:              70
 Selenocysteine tRNAs (TCA):                 0
