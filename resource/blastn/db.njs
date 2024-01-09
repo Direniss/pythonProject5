@@ -6,7 +6,7 @@
   "description": "/Users/xcaydi/PycharmProjects/pythonProject5/resource/Genome/G_intestinalis.fasta",
   "number-of-letters": 11696115,
   "number-of-sequences": 37,
-  "last-updated": "2024-01-08T21:13:00",
+  "last-updated": "2024-01-09T19:05:00",
   "number-of-volumes": 1,
   "bytes-total": 2967768,
   "bytes-to-cache": 2924662,
