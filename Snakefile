@@ -1,12 +1,10 @@
 rule all:
-    input:
+    input: "output/orthofinder/"
             #"output/tRNA_scan_result.txt",
             #"output/G_intestinalis.tRNA",
             #expand("output/tRNAscan/{sp}.tRNA", sp=["G_muris", "G_intestinalis"]),
             #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'S_salmonicida']),
             #expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
-            ("output/orthofinder/")
-
 
 
 rule tRNAscan:
@@ -77,13 +75,13 @@ rule blastn:
     script:
         "scripts/blastn.py"
 
+
 rule orthofinder:
     input:
         fasta = "resource/orthofinder/",
     output:
-        directory("output/orthofinder/")
+        directory("output/orthofinder/"),
     conda:
-        "env/env.yaml"
+        "env/env.yaml",
     script:
-        "scripts/2_BioinformaticsTools/orthofinder.py"
-
+        "scripts/orthofinder.py"
