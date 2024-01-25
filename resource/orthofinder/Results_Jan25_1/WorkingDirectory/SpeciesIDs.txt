@@ -1,3 +1,0 @@
-0: G_intestinali_aa.fasta
-1: G_muris_aa.fasta
-2: G_salmonicida_aa.fasta

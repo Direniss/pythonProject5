@@ -1,6 +1,5 @@
 rule all:
-    input:
-            "output/orthofinder/"
+    input: "output/orthofinder/"
             #"output/tRNA_scan_result.txt",
             #"output/G_intestinalis.tRNA",
             #expand("output/tRNAscan/{sp}.tRNA", sp=["G_muris", "G_intestinalis"]),
