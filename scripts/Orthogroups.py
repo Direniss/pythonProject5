@@ -3,8 +3,8 @@ from matplotlib import pyplot as plt
 from upsetplot import UpSet
 import seaborn as sns
 
-path_OG_count = "/Users/xcaydi/PycharmProjects/pythonProject5/resource/Orthogroups.GeneCount.tsv"
-path_singletons = "/Users/xcaydi/PycharmProjects/pythonProject5/resource/Orthogroups_UnassignedGenes.tsv"
+path_OG_count = "/resource/leftovers/Orthogroups.GeneCount.tsv"
+path_singletons = "/resource/leftovers/Orthogroups_UnassignedGenes.tsv"
 out_0 = "/Users/xcaydi/PycharmProjects/pythonProject5/data/upset0_10sp.png"
 
 "OG with at least two genes"
