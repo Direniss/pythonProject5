@@ -16,11 +16,11 @@ O50 (all genes)	2644
 Number of orthogroups with all species present	1990
 Number of single-copy orthogroups	1651
 Date	2024-01-27
-Orthogroups file	Orthogroups.csv
-Unassigned genes file	Orthogroups_UnassignedGenes.csv
-Per-species statistics	Statistics_PerSpecies.csv
+Orthogroups file	Orthogroups.tsv
+Unassigned genes file	Orthogroups_UnassignedGenes.tsv
+Per-species statistics	Statistics_PerSpecies.tsv
 Overall statistics	Statistics_Overall.csv
-Orthogroups shared between species	Orthogroups_SpeciesOverlaps.csv
+Orthogroups shared between species	Orthogroups_SpeciesOverlaps.tsv
 
 Average number of genes per-species in orthogroup	Number of orthogroups	Percentage of orthogroups	Number of genes	Percentage of genes
 <1	1564	42.9	3128	28.1

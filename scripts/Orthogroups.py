@@ -13,7 +13,7 @@ df_count = df_count.set_index("Orthogroup").sort_values(by="Total", ascending=Fa
 df_count.loc[df_count["Total"] >1 , "Type"] ="OG"
 df_count.head()
 
-"Single genes whoch are excluded from the OG"
+"Single genes which are excluded from the OG"
 df_sing = pd.read_csv(path_singletons,  sep="\t", header= 'infer')
 df_sing = df_sing.set_index("Orthogroup").fillna(0)
 df_sing["Total"] = 1
@@ -25,15 +25,15 @@ df_count_s.loc[df_count_s["Total"] >1, "Type"] ="OG"
 df_count_s.loc [df_count_s["Total"]  ==1 , "Type"] = "singleton"
 df_count.head()
 
-df_count_s = df_count_s.rename(columns={"S_salmonicida_aa": "S.salmonicida",
-                                        "G_intestinalis_aa": "G.intestinalis",
-                                        "G_muris_aa" : "G.muris"})
+df_count_s = df_count_s.rename(columns={"S_salmonicida_aa": "S. salmonicida",
+                                        "G_intestinalis_aa": "G. intestinalis",
+                                        "G_muris_aa": "G. muris"})
 df_count_s.head()
 df_count_s.tail()
 "Upset plot for both OG and singletons marked different colors"
-df_stack = df_count_s.set_index(df_count_s["S.salmonicida"] >=1). \
-    set_index(df_count_s["G.intestinalis"] >=1, append=True). \
-    set_index(df_count_s["G.muris"] >= 1, append=True)
+df_stack = df_count_s.set_index(df_count_s["S. salmonicida"] >=1). \
+    set_index(df_count_s["G. intestinalis"] >=1, append=True). \
+    set_index(df_count_s["G. muris"] >= 1, append=True)
 
 """plot upset0"""
 upset0 = UpSet(df_stack.sort_values(by="Total",  ascending=True),
